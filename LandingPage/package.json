@@ -1,0 +1,12 @@
+{
+  "name": "tailwindprojects",
+  "version": "1.0.0",
+  "description": "this is learning project",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "vite"
+  },
+  "author": "anushka",
+  "license": "ISC"
+}
