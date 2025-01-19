@@ -39,7 +39,7 @@
     
             <div class="flex px-5 py-16 space-x-16">
                 <div class="flex space-x-3">
-                    <img class="h-20 w-20" src="img/image.png">
+                    <img id="scrollImage" class="h-20 w-20" src="img/image.png">
                     <p class="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum eos officiis.</p>
                 </div>
                 <div class="flex">
@@ -55,4 +55,18 @@
         </main>
     </div>
 </body>
+<script>
+    const scalableImage = document.getElementById("scrollImage")
+
+    window.addEventListener('scroll',() => {
+
+        const scrollValue = window.scrollY;
+
+        tempVal = 1 + scrollValue/500;
+
+        const scaleLimit = Math.min(temp,3);
+
+        
+    })
+</script>
 </html>
